@@ -34,4 +34,4 @@ def auto_commit():
 # Run the commit function every 10 minutes
 while True:
     auto_commit()
-    time.sleep(0.1)  # Sleep for 600 seconds (10 minutes)
+    time.sleep(0.01)  # Sleep for 600 seconds (10 minutes)
